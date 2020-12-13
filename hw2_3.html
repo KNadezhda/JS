@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 2</title>
+</head>
+<body>
+<script>
+    alert('арифметические операции')
+
+    let a = +prompt('Введите первое число: ');
+    let b = +prompt('Введите второе число: ');
+    let c;
+
+    if (a >= 0 && b >= 0) {
+        c = a - b;
+        alert(`Разность чисел ${c}`);
+    } else if (a <= 0 && b <= 0) {
+        c = a * b;
+        alert(`произведение чисел ${c}`);
+    } else {
+        c = a + b;
+        alert(`сумма чисел ${c}`);
+    }
+</script>
+</body>
+</html>
