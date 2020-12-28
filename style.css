@@ -1,16 +1,28 @@
-table {
-    margin: auto;
-    border-collapse: collapse;
+* {
+    margin: 0;
+    padding: 0;
 }
-tr {
-    width: 70px;
-    height: 70px;
+
+.product {
+    width: 359px;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+    background: lightblue;
+    padding: 5px;
+
 }
-td {
-    border: 1px solid #888888;
-    width: 70px;
-    height: 70px;
-    background-color: #FFFFFF;
+
+.basket-btn {
+    font-size: 16px;
+    line-height: 26px;
     text-align: center;
-    font-size: 1.5em;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 5px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
 }
