@@ -1,0 +1,28 @@
+* {
+    margin: 2px;
+    padding: 1px;
+}
+
+.goods{
+    width: 359px;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+    background: lightblue;
+    padding: 5px;
+
+}
+
+.basket-btn {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 5px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
